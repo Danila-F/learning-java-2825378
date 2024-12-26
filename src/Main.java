@@ -8,7 +8,7 @@ public class Main {
         Event[] events = {eventOne, eventTwo, eventThree};
 
         for (Event e : events) {
-            System.out.println(e.getTimeStamp());
+            System.out.println(e.getFormattedTimeStamp());
             e.process();
             System.out.println();
         }
